@@ -1,0 +1,133 @@
+
+    body {
+      background-color: #f3ece1;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 600px;
+      margin-top: 100px;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+      background-color: white;
+      border-radius: 25px 25px 25px 25px;
+    }
+
+    .container2 {
+      width: 400px;
+      justify-content: center;
+    
+    }
+
+    .custom{
+      padding: 10px;
+      justify-content: center;
+    }
+
+    img {
+      max-width: 100%;
+      width: 300%;
+      height: 100%;
+      border-radius: 25px 0px 0px 25px;
+    }
+    
+
+    .perfumeheader {
+      padding-top: 16px;
+      color: grey;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+    }
+
+    .perfumename {
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    .perfumedescription {
+      font-size: 14px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .perfumeprice {
+      font-size: 26px;
+      padding-right: 20px;
+      color: #107d5ec9;
+    }
+
+    .perfumepriceold {
+      font-size: 12px;
+    }
+
+    button {
+      width: 100%;
+      height: fit-content;
+      flex-wrap: wrap;
+      background-color: #107d5ec9 !important;
+
+    }
+
+    button img {
+      width: 15px;
+      margin-right: 5px;
+      margin-bottom: 3px;
+    }
+
+    .lasttext {
+      position: relative;
+      width: 100%;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .lasttextchild {
+      position: absolute;
+      bottom: 5px;
+      text-align: center;
+      font-size: 10px;
+    }
+
+    .text {
+      font-size: 10px;
+      padding-left: 10x;
+    }
+    
+
+    @media screen and (max-width: 600px) {
+
+      .container {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        left: 0;
+        right: 0;
+      }
+
+      .container2 {
+        width: 100%;
+        justify-content: center;
+
+
+      }
+      .custom {
+        border-radius: 0px 0px 25px 25px;
+        justify-content: center;
+      }
+
+      img {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        border-radius: 25px 25px 0px 0px;
+      }
+
+      .perfumedescription {
+        flex-wrap: wrap;
+      }
+    }
